@@ -1,20 +1,15 @@
-Hi.
+What Would Sherif Do (WWSD) is a message board highlighting the great wisdom of Sherif.
 
-Fashion Forward is an Overflow for fashion advice.  The idea is users will ask questions about their outfit by
-posting a link from imgur.  Logged in uses can vote, "You are jammin'!" or "Clean your mirror!" to offer advice
-on the question poster's fashion choice.
+Members can layout scenarios for which they are curious as to what Sherif would do. Other members can suggest answers.
+Answers can be voted on by members (as long as they aren't the author of the answer).
+Of course we also prevent against ballot stuffing (you can only vote an answer up one time).
 
-Users>>Questions>>Answers.
+Don't worry, you don't have to be a member to have fun.
+You can still view scenarios and the current number of answers without being logged in.
 
-We have test coverage of about half our functionality.  Need to change routes to new home page.  Users show page is failing.  Questions having many answers is failing.
+http://wwsd.herokuapp.com/
 
-We need user sessions complete and an answers controller.
-
-- Get SEED data
-
-
-Developer Setup - Running the App:
-
+Installing the App:
 Run "Bundle" in command line
 	$ bundle
 Create the database
@@ -22,11 +17,13 @@ Create the database
 Migrate the database
 	$ rake db:migrate
 Seed the database (need to get seeds!)
-	$ rake db:seed 
+	$ rake db:seed
+
+Running the App:
 Run the rails server
 	$ rails s
 
-Developer Setup - Testing Environment
+Testing the App:
 Create the test database
 	$ RAILS_ENV=test rake db:create
 Migrate the database
