@@ -9,27 +9,38 @@ You can still view scenarios and the current number of answers without being log
 
 http://wwsd.herokuapp.com/
 
-Installing the App:
+**Installing the App**
 
 Run "Bundle" in command line
-	$ bundle
-Create the database
-	$ rake db:create
-Migrate the database
-	$ rake db:migrate
-Seed the database (need to get seeds!)
-	$ rake db:seed
 
-Running the App:
+	$ bundle
+	
+Create the database
+
+	$ rake db:create
+	
+Migrate the database
+
+	$ rake db:migrate
+
+**Running the App**
+
 Run the rails server
+
 	$ rails s
 
-Testing the App:
+**Testing the App**
+
 Create the test database
+
 	$ RAILS_ENV=test rake db:create
+	
 Migrate the database
+
 	$ RAILS_ENV=test rake db:migrate
+	
 Run tests
+
 	$ rspec
 
 Brought to you by: Sunny, Kiera, David, Nishant and Elmer
