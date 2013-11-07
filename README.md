@@ -10,6 +10,7 @@ You can still view scenarios and the current number of answers without being log
 http://wwsd.herokuapp.com/
 
 Installing the App:
+
 Run "Bundle" in command line
 	$ bundle
 Create the database
